@@ -1,0 +1,197 @@
+/* Index page styles  */
+
+#np-index-wrap .top-mini-nav-wrap {
+    background-color: lightgray;
+    color: darkslategrey;
+}
+
+#np-index-wrap .top-mini-nav-wrap .contact-us-today p {
+    display: inline;
+    margin: 0 10px;
+}
+
+#np-index-wrap .top-mini-nav-wrap .nav-bar-nav .nav-item {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#np-index-wrap .search-category-wrap {
+    margin: 20px 0;
+}
+
+#np-index-wrap .search-category-wrap .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#np-index-wrap .search-category-wrap .block-content {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#np-index-wrap .search-category-wrap .category-search-option {
+    border: 1px solid lightgray;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: -2px;
+}
+
+#np-index-wrap .search-category-wrap .form-control {
+    height: 40px;
+    border-radius: unset;
+}
+
+#np-index-wrap .search-category-wrap .btn-search {
+    height: 40px;
+    border: 1px solid lightgray;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    margin-left: -1px;
+    width: 30%;
+    background-color: Orange;
+    color: white;
+}
+
+#np-index-wrap .search-category-wrap .btn-search:hover {
+    opacity: 0.7;
+}
+
+#np-index-wrap .search-category-wrap .form-search .btn-search:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    font-size: 14px;
+}
+
+#np-index-wrap .search-category-wrap .cart-details {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#np-index-wrap .search-category-wrap .cart-details-wrap {
+    border: 1px solid lightgray;
+}
+
+#np-index-wrap .category-navbar-wrap .category-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+    padding: 0 15px;
+}
+
+#np-index-wrap .category-navbar-wrap .nav-bar-nav .nav-item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#np-index-wrap .category-navbar-wrap .category-menu {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+#np-index-wrap .category-navbar-wrap .category-icon {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#np-index-wrap .category-navbar-wrap .category-option {
+    height: 50px;
+}
+
+#np-index-wrap .category-navbar-wrap {
+    background-color: lightgray;
+}
+
+#np-index-wrap .category-navbar-wrap .category-option .category-list-wrap {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+#np-index-wrap .category-navbar-wrap .category-option .category-list {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#np-index-wrap .category-navbar-wrap .category-option .category-list-wrap #cl-1:hover,
+#cl-2:hover,
+#cl-3:hover,
+#cl-4:hover,
+#cl-5:hover,
+#cl-6:hover,
+#cl-7:hover,
+#cl-8:hover {
+    background-color: orange;
+}
+
+
+/* #np-index-wrap .category-navbar-wrap .category-option .category-item {
+    margin: auto;
+} */
+
+#np-index-wrap .category-navbar-wrap .category-option .category-link {
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+
+}
+
+#np-index-wrap .cat-bannr-wrap .cat-contents .cat-items {
+    list-style-type: none;
+    height: 40px;
+}
+
+#np-index-wrap .cat-bannr-wrap .cat-contents {
+    border-left: 1px solid lightgray;
+
+}
+
+#np-index-wrap .cat-bannr-wrap .cat-contents .cat-items a {
+    text-decoration: none;
+    color: black;
+}
+
+#np-index-wrap .cat-bannr-wrap .summer-sale-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+#np-index-wrap .cat-bannr-wrap .all-cat-wrap a {
+    text-decoration: none;
+    color: gray;
+    padding: 2.5% 27.7%;
+}
+
+#np-index-wrap .cat-bannr-wrap .all-cat-wrap {
+    border: 1px solid lightgray;
+    height: 41px;
+}
+
+#np-index-wrap .cat-bannr-wrap .all-cat-wrap a:hover {
+    color: orange;
+}
+
+#np-index-wrap .cat-bannr-wrap .all-cat-wrap a::after {
+    content: '>';
+    height: 10px;
+    display: block;
+    color: gray;
+    margin-left: 20px;
+}
